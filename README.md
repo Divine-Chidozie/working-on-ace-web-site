@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ace Digital Co
 This is the repository for the Ace Digital Co website.
 
@@ -6,8 +7,8 @@ Here are a few coding conventions we will adhere to.
 1. Use descriptive variable names
 2. Add comments
 3. HTML id(s) and class names that are not associated with any third party libraries should prepended with **ace** and delimited by **hyphens**. e.g. `<button id="ace-sign-up">Sign up</button>`
+=======
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -76,3 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>>>>>>> 56584ef (Initialize project using Create React App)
