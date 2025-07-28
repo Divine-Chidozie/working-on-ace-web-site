@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -9,36 +10,37 @@ function App() {
   useEffect(() => {
     // Make a request to your backend API
     // The '/api' prefix will be proxied to 'http://localhost:5000' by create-react-app's proxy config
-    fetch('/api')
+    fetch('/')
       .then(response => {
         // Check if the response was successful (status code 2xx)
         if (!response.ok) {
-          // If not, throw an error with the status
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        // Parse the JSON response body
         return response.json();
       })
       .then(data => {
-        // Set the message from the backend data
         setMessage(data.message);
       })
       .catch(error => {
-        // Log any errors to the console
         console.error("Error fetching data:", error);
-        // Set an error message to display in the UI
         setError("Failed to fetch data from backend. Please check server console.");
       });
   }, []);
 
   return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        {error ? (
+      </header>
+      
+      {error ? (
           // Display error message if there was an error fetching data
           <p className="text-red-500 text-lg">{error}</p>
         ) : (
@@ -47,9 +49,15 @@ function App() {
             {message ? `Message from Backend: "${message}"` : 'Loading message...'}
           </p>
         )}
-      </header>
+        <a href='/services'>Start Ace Homepage here</a>
     </div>
+    
+    </BrowserRouter>
   );
+}
+
+function Home() {
+  return <>Home</>
 }
 
 export default App;
