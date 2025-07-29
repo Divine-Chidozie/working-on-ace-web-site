@@ -1,19 +1,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
->>>>>>> 326835d (Genesis)
+
+> > > > > > > 326835d (Genesis)
+
 # Ace Digital Co
+
 This is the repository for the Ace Digital Co website.
 
-## Coding Conventions ##
+## Coding Conventions
+
 Here are a few coding conventions we will be using.
+
 1. Use descriptive variable names
 2. Add comments
 3. HTML id(s) and class names that are not associated with any third party libraries should prepended with **ace** and delimited by **hyphens**. e.g. `<button id="ace-sign-up">Sign up</button>`
 4. Any new dependencies you had to install should be included in your pull request.
-Thanks for adhering
+   Thanks for adhering
 
-## How to run this project ##
+## How to run this project
+
 1. Clone this repo.
 2. cd into client directory and run `npm install`.
 3. cd into server directory and run `npm install`.
@@ -21,9 +27,11 @@ Thanks for adhering
 5. On one, run `npm run build`, then `npm run start`.
 6. On the other run `npm run dev`.
 7. Happy coding.
-<<<<<<< HEAD
-=======
+   <<<<<<< HEAD
+   =======
+
 ## Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -63,7 +71,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-
->>>>>>> 56584ef (Initialize project using Create React App)
-=======
->>>>>>> 326835d (Genesis)
+> > > > > > > # 56584ef (Initialize project using Create React App)
+> > > > > > >
+> > > > > > > 326835d (Genesis)
