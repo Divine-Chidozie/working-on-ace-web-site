@@ -1,0 +1,251 @@
+/* =============== NavBar Styles =============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #495057;
+  background: whitesmoke;
+}
+.hero-background {
+  background: linear-gradient(to right, #1c1f26, #1e2a45, #2e6da8);
+  color: white;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 17px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+  z-index: 1000;
+}
+.nav_bar_logo {
+  width: 34px;
+  height: inherit;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.nav_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+}
+a:hover {
+  color: #339af0;
+  transition: 0.3s ease-in;
+}
+.start-btn {
+  font-size: 16px;
+  color: white;
+  background-color: #339af0;
+  border: 2px solid #229af0;
+  padding: 7px 14px;
+  border-radius: 8px;
+}
+.start-btn:hover {
+  color: #fff;
+  background: #1c7ed6;
+  border: 2px solid #1c7ed6;
+  transform: scale(1.05, 1.05);
+  box-shadow: 0px 3px 6px #495057;
+}
+/* =============== Hero Styles =============== */
+.hero_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -39.7px;
+  margin-bottom: 70px;
+}
+.hero_title {
+  /* font-size: 6.2rem; */
+  font-size: 62px;
+  font-weight: 700;
+  margin-top: 250px;
+  letter-spacing: -2px;
+  color: white;
+}
+.hero_description {
+  font-size: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 25px 0;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.btn {
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 7px 14px;
+}
+.primary_button {
+  background-color: #339af0;
+  border: 2px solid #339af0;
+}
+.primary_button:hover,
+.secondary_button:hover {
+  color: #fff;
+  background: #1c7ed6;
+  border: 2px solid #1c7ed6;
+  transform: scale(1.05, 1.05);
+  box-shadow: 0px 3px 6px #495057;
+}
+.secondary_button:hover {
+  background: none;
+}
+.secondary_button {
+  border: 2px solid white;
+}
+
+/* =============== Our_Service Styles =============== */
+.services_title_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.services_section_title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #212529;
+  margin-top: 80px;
+}
+.services_description {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #495057;
+}
+
+/* ***** service_list ***** */
+.service_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.service {
+  box-shadow: 0px 0px 4px rgba(33, 33, 33, 0.705);
+}
+.service_info,
+.service_features {
+  padding: 20px;
+}
+.service_info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.service_icon {
+  background-color: #0c0064;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.service_title {
+  color: #4f4e4e;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 0;
+}
+.service_text {
+  color: #4f4e4e;
+  font-size: 15px;
+  margin-bottom: -20px;
+}
+.service_features ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -5px;
+  margin-left: 15px;
+}
+.service_features ul li {
+  list-style-type: disc;
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+/* =============== Stats Styles =============== */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.stats_item {
+  padding: 5px;
+}
+.stats_icon {
+  background-color: #0c0064;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.stats_value {
+  font-size: 19px;
+  margin-top: 5px 0;
+  font-weight: 600;
+}
+.stats_label {
+  font-size: 14px;
+  text-shadow: 4px 0px 8px rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+}
