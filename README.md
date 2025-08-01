@@ -1,76 +1,62 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-> > > > > > > 326835d (Genesis)
-
 # Ace Digital Co
 
 This is the repository for the Ace Digital Co website.
 
 ## Coding Conventions
 
-Here are a few coding conventions we will be using.
+Here are a few coding conventions we will be using:
 
-1. Use descriptive variable names
-2. Add comments
-3. HTML id(s) and class names that are not associated with any third party libraries should prepended with **ace** and delimited by **hyphens**. e.g. `<button id="ace-sign-up">Sign up</button>`
-4. Any new dependencies you had to install should be included in your pull request.
-   Thanks for adhering
+1. Use descriptive variable names.
+2. Add comments.
+3. HTML id(s) and class names that are not associated with any third party libraries should be prepended with **ace** and delimited by **hyphens**.  
+   _Example_: `<button id="ace-sign-up">Sign up</button>`
+4. Any new dependencies you install should be included in your pull request.
+
+Thanks for adhering!
+
+---
 
 ## How to run this project
 
 1. Clone this repo.
-2. cd into client directory and run `npm install`.
-3. cd into server directory and run `npm install`.
-4. Open two terminals.
-5. On one, run `npm run build`, then `npm run start`.
-6. On the other run `npm run dev`.
-7. Happy coding.
-   <<<<<<< HEAD
-   =======
+2. `cd` into the `client` directory and run `npm install`.
+3. `cd` into the `server` directory and run `npm install`.
+4. Open two terminals:
+   - In one, run `npm run build`, then `npm run start`.
+   - In the other, run `npm run dev`.
+5. Happy coding!
+
+---
 
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page reloads when you make changes.  
+You may also see lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.  
+See the [running tests guide](https://facebook.github.io/create-react-app/docs/running-tests).
 
-### `npm run build`
+#### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.  
+It bundles React in production mode and optimizes the build.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### `npm run eject`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**  
+Use this if you need full control over the configuration.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-> > > > > > > # 56584ef (Initialize project using Create React App)
-> > > > > > >
-> > > > > > > 326835d (Genesis)
+---
