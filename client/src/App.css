@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding-bottom: 20px;
 }
+
 /* nav-links with hamburger */
 
 .hamburger {
@@ -116,7 +117,7 @@ a:hover {
   margin-bottom: 70px;
 }
 .hero_title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-top: 250px;
   letter-spacing: -2px;
@@ -391,10 +392,9 @@ br {
     text-align: center;
   }
   .hero_description {
-    width: 90%;
     margin-bottom: 2rem;
     line-height: 1.3;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .service_list {
     display: flex;
@@ -415,7 +415,7 @@ br {
   }
   .services_description {
     line-height: 1.3;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .service_info {
     display: flex;
@@ -430,15 +430,9 @@ br {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 120px;
-    color: red;
+    margin-left: 80px;
+    /* color: red; */
   }
-  /* .service--social {
-    margin-left: 10px;
-  }
-  .service--landing {
-    text-align: left;
-  } */
 }
 
 @media (max-width: 768px) {
