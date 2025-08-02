@@ -430,8 +430,7 @@ br {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 80px;
-    /* color: red; */
+    margin-left: 100px;
   }
 }
 
