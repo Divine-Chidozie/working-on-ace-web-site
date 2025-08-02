@@ -348,7 +348,6 @@ br {
     overflow-x: hidden;
     width: 100%;
   }
-
   .container {
     max-width: 100%;
     overflow-x: hidden;
@@ -362,11 +361,12 @@ br {
   .hero_title {
     font-size: 3rem;
     max-width: 40%;
+    text-align: center;
   }
   .hero_description {
     width: 90%;
     margin-bottom: 2rem;
-    font-size: 1.2rem;
+    line-height: 1.5;
   }
   .service_list {
     display: flex;
@@ -374,6 +374,9 @@ br {
     align-items: center;
     flex-direction: column;
     padding: 10px 0;
+  }
+  .btn {
+    font-size: 1rem;
   }
   .service {
     display: flex;
@@ -392,7 +395,7 @@ br {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-left: -120px;
+    /* margin-left: -120px; */
     color: red;
   }
   .service--social {
