@@ -19,7 +19,9 @@ function HeroSection() {
     <>
       <div className="container">
         <section className="hero_section fade-up" id="home">
-          <h1 className="hero_title">Digital Excellence</h1>
+          <h1 className="hero_title">
+            Digital <br></br> Excellence
+          </h1>
           <p className="hero_description">
             We specialize in creating impactful social media strategies,
             high-converting landing pages, and innovative web applications that

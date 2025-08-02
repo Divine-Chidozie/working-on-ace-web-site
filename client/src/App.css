@@ -104,6 +104,9 @@ a:hover {
   gap: 15px;
   margin-bottom: 20px;
 }
+br {
+  display: none;
+}
 .btn {
   font-size: 1rem;
   text-decoration: none;
@@ -356,12 +359,14 @@ a:hover {
   .hero_section {
     text-align: center;
   }
+  .hero_title {
+    font-size: 3rem;
+    max-width: 40%;
+  }
   .hero_description {
     width: 90%;
     margin-bottom: 2rem;
-  }
-  .btn {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .service_list {
     display: flex;
@@ -381,18 +386,20 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    text-align: left;
   }
   .service_features {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-left: -220px;
+    margin-left: -120px;
+    color: red;
   }
   .service--social {
     margin-left: 10px;
   }
   .service--landing li {
     text-align: left;
-    margin-left: -40px;
+    /* margin-left: -40px; */
   }
 }
