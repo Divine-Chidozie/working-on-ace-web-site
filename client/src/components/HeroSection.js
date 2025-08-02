@@ -1,8 +1,20 @@
 import React from "react";
+import { useEffec, useRef } from "react";
 // import { motion } from "framer-motion";
 
 /* =============== ACE DIGITAL CO HERO-SECTION =============== */
 function HeroSection() {
+  const startBtnRef = useRef(null);
+
+  const handleStartBtn = (e) => {
+    e.preventDefault();
+    alert("Sign up feature coming soon! stay tuned.");
+  };
+
+  const handlePortfolioBtn = (e) => {
+    e.preventDefault();
+    alert("Our portfolio is still in progress. please check back later!");
+  };
   return (
     <>
       <div className="container">
@@ -14,10 +26,14 @@ function HeroSection() {
             deliver measurable results
           </p>
           <div className="button">
-            <a href="" className="btn primary_button">
+            <a onClick={handleStartBtn} href="" className="btn primary_button">
               Start Now
             </a>
-            <a href="" className="btn secondary_button">
+            <a
+              onClick={handlePortfolioBtn}
+              href=""
+              className="btn secondary_button"
+            >
               See Portfolio
             </a>
           </div>

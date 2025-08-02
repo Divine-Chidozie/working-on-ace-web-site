@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.7",
     "framer-motion": "^12.23.12"
   }
 }

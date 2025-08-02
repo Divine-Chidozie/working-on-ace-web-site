@@ -1,4 +1,15 @@
+import { useEffect, useRef } from "react";
+
 const Navbar = () => {
+  const startBtnRef = useRef(null);
+
+  const handleClickBtn = (e) => {
+    e.preventDefault();
+    alert(
+      "Thank you for reaching out! our contact form is under development. stay tuned!"
+    );
+  };
+
   return (
     <>
       <div className="container">
@@ -26,7 +37,7 @@ const Navbar = () => {
               </a>
             </ul>
           </nav>
-          <a className="start-btn" href="">
+          <a onClick={handleClickBtn} className="start-btn" href="">
             Let’s Talk
           </a>
         </header>
