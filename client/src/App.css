@@ -430,8 +430,17 @@ br {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 60px;
-    color: blue;
+    margin-left: 55px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .stats_value {
+    margin: 2px 0;
   }
 }
 
@@ -439,7 +448,6 @@ br {
   .hamburger {
     display: flex;
   }
-
   .nav_links {
     position: absolute;
     top: 70px;
