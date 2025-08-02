@@ -385,20 +385,16 @@ br {
     overflow-x: hidden;
   }
   .nav_bar {
-    margin: 0 30px;
+    margin: 0 20px;
   }
   .hero_section {
-    text-align: center;
-  }
-  .hero_title {
-    font-size: 3rem;
-    max-width: 40%;
     text-align: center;
   }
   .hero_description {
     width: 90%;
     margin-bottom: 2rem;
-    line-height: 1.5;
+    line-height: 1.3;
+    font-size: 1.3rem;
   }
   .service_list {
     display: flex;
@@ -417,26 +413,32 @@ br {
     flex-direction: column;
     margin: 0 20px;
   }
+  .services_description {
+    line-height: 1.3;
+    font-size: 1.3rem;
+  }
   .service_info {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     text-align: left;
   }
+  .service_text {
+    line-height: 1.3;
+  }
   .service_features {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* margin-left: -120px; */
+    margin-left: 120px;
     color: red;
   }
-  .service--social {
+  /* .service--social {
     margin-left: 10px;
   }
-  .service--landing li {
+  .service--landing {
     text-align: left;
-    /* margin-left: -40px; */
-  }
+  } */
 }
 
 @media (max-width: 768px) {
